@@ -9,19 +9,21 @@ const About = () => {
       <Navbar />
       <main className="m-auto text-center py-4 border-y-2 border-gray-700 max-w-[580px] w-full">
         <div className="p-6 text-center">
-          I’m an Information & Technology alumni from Eastern Mediterranean
-          University, Cyprus. I am passionate about Web development and
-          currently, I work with NextJS and React. I also enjoy scripting and
-          other fields that help me automate my tasks. I am currently learning
-          how to work better with algorithms and data structures. I like to
-          practice my skills on sites like Frontend Mentor, Code wars, CSS
-          battle, Hackerrank and Try Hack Me. I am currently working as a
-          Frontend Web Developer at Rapid River / Internet Brands.
+          I am a result-oriented and innovative software engineer who is
+          interested in developing highly-scalable and performant web
+          applications and softwares. I also enjoy communicating technical
+          concepts to non-technical stakeholders. I enjoy working in a team as
+          well as being independent. I look up to each day as an opportunity to
+          learn something new and improve on it.
         </div>
-        <button className="inline-block p-2 bg-gray-500 text-gray-200 text-center flex items-center justify-center gap-2 rounded m-auto">
+        <a
+          href="/CV - Ndatsu Mas'ud.pdf"
+          className="inline-block p-2 bg-gray-500 text-gray-200 text-center flex items-center justify-center gap-2 rounded m-auto w-[200px]"
+          download
+        >
           <FaFileDownload />
           Download My CV
-        </button>
+        </a>
       </main>
       <Footer />
     </div>
